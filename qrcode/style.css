@@ -1,0 +1,48 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-family: 'Outfit', sans-serif;
+background: rgba(213, 225, 239, 1);
+
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 320px;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 497px;
+    padding: 15px;
+}
+.qr-code {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text h2 {
+    font-weight: 700;
+    size: 22px;
+    line-height: 27.72px;
+    text-align: center;
+    color: #1F314F;
+}
+.text2 {
+    width: 256px;
+}
+.text2 p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #666;
+    text-align: center;
+    line-height: 18.9px;
+    letter-spacing: 0.19px;
+    margin-top: -5px;  
+}
